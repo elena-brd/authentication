@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    background: #d5e0e7;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    width: 1100px;
+    height: 90vh;
+    border: 5px solid #457b9d;
+    border-radius: 15px;
+    background: url('../img/showcase-2.jpg') no-repeat center center/cover;
+
+}
+
+/* card */
+.content {
+    background: rgba(255, 255, 255, 0.5);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 550px;
+    height: 350px;
+    margin-top: 3rem;
+    padding: 3rem;
+}
+
+.content .logo-title {
+    color: #219ebc;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1rem;
+}
+
+.content .about {
+    font-size: 0.7rem;
+    line-height: 1.8;
+}
+
+/* navbar */
+.wrapper .sidebar {
+    background: #fff;
+    width: 300px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 2rem 1rem;
+}
+
+.sidebar h2 {
+    color: #219ebc;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2rem;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.email .user-shortcut {
+    border: 3px #8a8a8a solid;
+    padding: 0.8rem;
+    border-radius: 50%;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+.email .status {
+    color: #8a8a8a;
+    font-size: 0.8rem;
+}
+
+.email .add {
+    margin-right: 1.2rem;
+    margin-left: 0.5rem;
+    padding: 0.8rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.advice {
+    padding-top: 22rem;
+}
+
+.subtitle-advice {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.redirect-advice {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.redirect-advice a {
+    font-size: 0.8rem;
+    color: #457b9d;
+    padding-top: 1rem;
+}
